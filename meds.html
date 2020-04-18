@@ -73,24 +73,31 @@ body {font-family: "Lato", sans-serif}
     </p>
   </div>
 
-  <!--Medicine form-->
+ <!--Medicine form-->
 
   <div class="container">
     <form action="action_page.php">
       <div class="row">
         <div class="col-25">
-          <label for="fname"><h4>First Name</h4></label>
+          <label for="fname"><h4>User Id</h4></label>
         </div>
         <div class="col-75">
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <input type="text" id="fname" name="firstname" placeholder="User id ">
         </div>
       </div>
       <div class="row">
         <div class="col-25">
-          <label for="lname"><h4>Last Name</h4></label>
+          <label for="lname"><h4>Full Name</h4></label>
         </div>
         <div class="col-75">
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <input type="text" id="lname" name="lastname" placeholder="Your name..">
+        </div>
+      </div><div class="row">
+        <div class="col-25">
+          <label for="lname"><h4>E-Mail</h4></label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="E-Mail">
         </div>
       </div>
       <div class="row">
@@ -98,6 +105,17 @@ body {font-family: "Lato", sans-serif}
           <label for="medicine"><h4>Medecine</h4></label>
         </div>
         <div class="col-75">
+
+          <p>
+            <div class="tags-input" data-name="tags-input">
+                <!--<span class="tag">CSS<span class="close"></span></span>
+                <span class="tag">JavaScript<span class="close"></span></span>
+                <span class="tag">HTML<span class="close"></span></span>-->
+            </div>
+        </p>
+        <script src="tags.js"></script>
+
+          <!--
           <select id="medicine" name="medicine">
             <option value="Paracitamol">Paracitamol</option>
             <option value="Vicks">Vicks</option>
@@ -108,9 +126,9 @@ body {font-family: "Lato", sans-serif}
 
 
           </select>
+        -->
         </div>
       </div>
-
 
       <!--Radio butons (gender)-->
         
